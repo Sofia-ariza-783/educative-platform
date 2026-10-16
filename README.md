@@ -148,16 +148,6 @@ Errores: `404` si la sesión no existe, `409` si el estado no es válido (prueba
 
 **Estado actual:** los 3 criterios de aceptación de C4 se cumplen y las 36 pruebas automatizadas pasan.
 
-Validaciones pendientes para próximas ediciones:
-
-1. Validar con el equipo pedagógico la tabla grado → nivel.
-2. Persistir en C13 las sesiones en curso. Hoy viven en memoria y se pierden si se cierra la app.
-3. Medir el rendimiento en un celular real de 2 GB de RAM.
-4. Probar el lector de pantalla con TalkBack cuando exista C3.
-5. Confirmar que C13 cifre su base local completa.
-6. Aclarar en la spec si las respuestas apresuradas deben contar para subir de nivel en el diagnóstico.
-7. Reemplazar el banco de ejemplo por el C15 real.
-
 ## Próximos componentes
 
 Por dependencias: **C6** (consume el nivel de C4), **C13/C14** (reciben sus resultados) y **C3** (su interfaz).
