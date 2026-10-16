@@ -1,0 +1,9 @@
+[project]
+name = "leecuenta-motor-diagnostico"
+version = "1.0.0"
+description = "LeeCuenta - Motor de diagnóstico (C4)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
